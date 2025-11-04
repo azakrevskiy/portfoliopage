@@ -1,0 +1,182 @@
+<!doctype html>
+<head>
+ <link href="./css/style.css" rel="stylesheet" type="text/css" /> <meta charset="UTF-8">
+  <meta name="viewport"                              
+    content="width=device-width, initial-scale=1">  
+  <title>Portfolio Page</title>
+</head>
+<body>
+<header id="header" class="page-header">
+  <div class="title">
+    <h1>Andrey Zakrevskiy</h1>
+    <nav class="desktop">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="projects.html">PROJECTS</a></li>
+					</ul>
+				</nav>
+  </div>
+ </header>
+  <nav class="menu" id="main-menu">
+  <button class="menu-toggle" id="toggle-menu">  
+    toggle menu
+  </button>
+  <div class="menu-dropdown">                  
+    <ul class="nav-menu">
+      <li><a href="#mskills">Skills</a></li>
+      <li><a href="#mexpirience">Expirience</a></li>
+      <li><a href="#meducation">Education</a></li>
+      <li><a href="#mcontactme">Contact Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </div>
+ </nav>
+    <main class="main-content">
+      
+        <section class="bio info">
+          <div class="image-container">
+             <div>
+              <img src="./image/img_small.jpg"/>
+             </div>
+                <div class="data">
+		                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('contactme')">Contact Me</p>
+                 </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>SQL, Python, Pandas, Matplotlib</span><br>Data Analytics</li>
+                        <li><span>HTML, CSS, PHP</span><br>Frontend Web Development. Responsive Web Design</li>
+                        <li><span>Oracle, MSSQL</span><br>Database Development/Maintenance</li>
+                        <li><span>Visual Studio, C#, .net framework</span><br>Desktop Aplications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Agust 2025</span><br>Web Development/Data Analytics bootcamp at Codecademy.com</li>
+                        <li><span>February 2013 – March 2023</span><br>IPG Photonics Corporation. Southeast Technology Center. Birmingham, Al. MSSQL Database Development</li>
+                        <li><span>June 2007 – August 2011</span><br>LLC TB Inform, Russian Federation. IT Engineer</li>
+                        <li><span>1999 - June 2007</span><br>LLC Radius, Russian Federation. IT Engineer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>Codecademy.com</li>
+                        <li><span>1998</span><br>South Ural Sate University, Russian Federation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="contactme">
+                    <ul>
+                        <li><span>email:</span>  azzakrevskiy@gmail.com</li>
+                        <li><span>cell:</span>  (205)568-9586 (text, please)<br></li>
+                    </ul>
+                </div>
+          </div>
+          <div class="data-container">
+                 <div class="text">
+  <p>Hi, my name is Andrey Zakrevskiy. Thank you for taking your time
+ to visit my page. I was born and raised in Russia, 
+but now I live in the United States. 
+ I moved in 2011 to reunite with my family.
+  </p>
+  <p>
+ Before moving to the USA, I worked in the IT industry in Russia. My first job was at a small IT company 
+that developed and maintained accounting software for a wide range of organizations. Then I joined a large
+ IT company that provided IT infrastructure services for oil and gas companies and their service contractors
+ in the West Siberian region. My department was responsible for supporting and implementing 
+various types of applications that used Oracle and MSSQL as their primary data storage.
+ You can see my full work history on my <a href="https://www.linkedin.com/in/andrey-zakrevskiy-88360690"> LinkedIn </a> profile.
+ </p>
+ <p>
+ After moving to the US, my work was not related to IT. However, while working at a high tech company, 
+I developed and maintained a MSSQL database to automate my business processes.
+ Some time ago, after my career at high tech company ended, I decided to return to the IT industry.
+ </p>
+ <p>
+ Since 2023, I have been a student at Codecademy.com bootcamp, where I refreshed 
+my previous knowledge and learned new IT technologies in the field of web development 
+and data processing. In August 2025 I completed the Data Analytics course, which is confirmed by a professional certificate. 
+ You can view my portfolio projects on the <a href="./projects.html"> "Projects" </a> page.
+ </p>
+ <p>
+  I am currently looking for a company that would hire me as a Data Analyst or SQL Specialist. 
+ </p>
+                </div>
+                 
+           </div>    
+        </section>
+        <section class="data-mobile">
+         <div class="skills" id="mskills">                               
+           <h2 class="subtitle">Skills</h2>
+            <ul>
+                        <li><span>SQL, Python, Pandas, Matplotlib</span><br>Data Analytics</li>
+                        <li><span>HTML, CSS, PHP</span><br>Frontend Web Development. Responsive Web Design</li>
+                        <li><span>Oracle, MSSQL</span><br>Database Development/Maintenance</li>
+                        <li><span>Visual Studio, C#, .net framework</span><br>Desktop Aplications</li>
+            </ul>
+         </div>
+         <div class="expirience" id="mexpirience">                               
+           <h2 class="subtitle">Experience</h2>
+             <ul>
+                        <li><span>2023 - Agust 2025</span><br>Web Development/Data Analytics bootcamp at Codecademy.com</li>
+                        <li><span>February 2013 – March 2023</span><br>IPG Photonics Corporation. Southeast Technology Center. Birmingham, Al. MSSQL Database Development</li>
+                        <li><span>June 2007 – August 2011</span><br>LLC TB Inform, Russian Federation. IT Engineer</li>
+                        <li><span>1999 - June 2007</span><br>LLC Radius, Russian Federation. IT Engineer</li>
+                    </ul>
+         </div>
+         <div class="education" id="meducation">                               
+            <h2 class="subtitle">Education</h2>
+             <ul>
+                        <li><span>2025</span><br>Codecademy.com</li>
+                        <li><span>1998</span><br>South Ural Sate University, Russian Federation</li>
+                    </ul>
+         </div>
+          <div class="contactme" id="mcontactme">                               
+            <h2 class="subtitle">Contact Me</h2>
+            <ul>
+                        <li><span>email:</span>  azzakrevskiy@gmail.com</li>
+                        <li><span>cell:</span>  (205)568-9586 (text, please)<br></li>
+                    </ul>
+         </div>
+        
+        </section>
+    </main>  
+    <footer>
+      <div class="content">
+        <span class="copyright">Personal Portfolio</span>
+         <nav class="desktop">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+          </ul>
+         </nav>
+      </div>
+    </footer> 
+     <script type="text/javascript">
+      (function () {
+      var button = document.getElementById('toggle-menu');
+      button.addEventListener('click', function(event) {  
+      event.preventDefault();
+      var menu = document.getElementById('main-menu');
+      menu.classList.toggle('is-open');  
+      });
+      })();
+     </script>
+     <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+  </body>
+</html>
